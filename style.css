@@ -1,0 +1,109 @@
+body{
+    /*parallox scrolling*/
+    background-image: url('./images/BackgroundRL.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my_main_header{
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 10;
+}
+
+.my_header{
+    padding-left:20px;
+    color:rgb(33, 33, 58);
+    font-size: 130px;
+    font-weight: 500;
+}
+
+.my_nav{
+    padding-left: 270px;
+}
+
+.my_nav .btn{
+    background-color: rgb(33, 33, 58);
+    border-color: rgb(33, 33, 58);
+}
+
+.my_nav .btn .btn::onClick{
+    background-color: rgb(33, 33, 58);
+    border-color: rgb(33, 33, 58);
+}
+
+.my_search{
+    display: inline;
+}
+
+.my_card{
+    float:right;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    color: rgba(33, 33, 58);
+}
+.my_card .btn {
+    background-color: rgba(33, 33, 58, 0.233);
+    border-color: rgb(33, 33, 58);
+}
+
+.my_card .btn .btn::onClick{
+    background-color: rgba(33, 33, 58, 0.233);
+    border-color: rgb(33, 33, 58);
+}
+.my_card .h6{
+    margin-top: 20px;
+}
+
+.my_toggle{
+    float: right;
+    margin-top: 20px;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    border-color: rgba(33, 33, 58);
+    background-color: rgba(33, 33, 58);
+}
+
+.my_card_modal {
+    border: 1px solid rgba(33, 33, 58);
+    margin: 2px;
+}
+
+.my_modal .btn{
+    background-color: rgba(33, 33, 58);
+    border-color: rgb(33, 33, 58);
+}
+
+.my_modal .btn .btn::onClick{
+    background-color: rgb(33, 33, 58);
+    border-color: rgb(33, 33, 58);
+}
+
+.scroll_to_top_style{
+    display: none;
+    position: fixed;
+    bottom: 7%; 
+    right: 2%; 
+    z-index: 99;
+    border: none; 
+    outline: none;
+    background-color: rgb(33, 33, 58); 
+    background-color: rgba(33, 33, 58, 0.233);
+    color: white; 
+    cursor: pointer;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 10px; 
+    font-size: 25px; 
+    
+}
+
+
